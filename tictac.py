@@ -49,7 +49,7 @@ def check_win():
             return False
     if [board[0][0],board[1][1],board[2][2]] in win_row:
         return False
-    if [board[2][2],board[1][1],board[0][0]] in win_row:
+    if [board[0][2],board[1][1],board[2][0]] in win_row:
         return False
     return True
 
